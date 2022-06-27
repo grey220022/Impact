@@ -103,7 +103,7 @@ function Community() {
           </div>
             <div className="Topic-text">
               <div className="Topic-text1">
-                {"Sign the petition to ban single-use plastic bags in supermarket in the State of Washington"}
+                {"Sign the petition to ban single-use plastic bags in the State of Washington"}
               </div>
               <div className="Topic-photo-small-div">
                 <img src={a5} className="Topic-photo-small"/>
