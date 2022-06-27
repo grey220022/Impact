@@ -14,7 +14,7 @@ import a3 from './icon/a3.png';
 import a4 from './icon/a4.png';
 
 
-function Page() {
+function Community() {
   return (
     <div>
       <div className="Avatar">
@@ -99,4 +99,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Community;

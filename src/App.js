@@ -22,9 +22,35 @@ import Tooltip from '@mui/material/Tooltip';
 import React, { useState } from 'react';
 import Web3 from "web3"; 
 //import Page from './Page.js';
-import Page1 from './page';
+import Page1 from './community';
+
+function Page(props) {
+  const currentPage = props.currentPage;
+  if (currentPage===0){
+    return (
+      <Page1/>
+    )
+  }
+  if (currentPage===1){
+    return (
+      <div>Calandar page</div>
+    )
+  }
+  if (currentPage===2){
+    return (
+      <div>New page</div>
+    )
+  }
+  if (currentPage===3){
+    return (
+      <div>Donation page</div>
+    )
+  }  
+  return null;  
+}
 
 function App() {
+  const [currentPage, setCurrentPage] = useState(0);
   const [signin, setSignin] = useState(false);
   const [connectwallet, setConnectwallet] = useState(false);
   const [walletaddress, setWalletaddress] = useState("");
@@ -107,16 +133,16 @@ function App() {
             {"Impactopia"}
           </div>
           <div>
-          <div className="App-header-icon-selected">
+          <div className={currentPage === 0 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(0)}>
             <FontAwesomeIcon icon={faHouse} />
           </div>
-          <div className="App-header-icon-unselected">
+          <div className={currentPage === 1 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(1)}>
             <FontAwesomeIcon icon={faCalendarDay}/>
           </div>
-          <div className="App-header-icon-unselected">
+          <div className={currentPage === 2 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(2)}>
             <FontAwesomeIcon icon={faPeopleArrows} />
           </div>
-          <div className="App-header-icon-unselected">
+          <div className={currentPage === 3 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(3)}>
             <FontAwesomeIcon icon={faDonate} />
           </div>
           <div className="App-search-bar">
@@ -298,7 +324,7 @@ function App() {
         </div>
 
         <div className="App-page">
-          <Page1/>
+          <Page currentPage={currentPage}/>
         </div>
       </header>
     </div>
