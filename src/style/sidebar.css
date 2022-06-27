@@ -1,0 +1,86 @@
+.App-sidebar-cell {
+  background-color: #282c34;
+  margin: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.Sidebar-photo-div{
+  height: 50px;
+  text-align: left;
+  margin-left: 10px;  
+  float: left;
+}
+
+.Sidebar-photo{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.Sidebar-text{
+  display: inline;
+}
+
+.Sidebar-text1{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 12px;  
+}
+
+.Sidebar-text2{
+  font-size: 10px;
+  text-align: left;
+  color: gray;
+}
+
+.App-sidebar-pin-group {
+  background-color: #282c34;
+  margin: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.App-sidebar-pin-group-title {
+  font-size: 15px;
+  padding: 15px;
+  text-align: left;
+  border-bottom: gray solid 1px;
+}
+
+.App-sidebar-group-cell{
+  background-color: #282c34;
+  margin: 10px;
+  margin-left: 0px;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+
+.App-sidebar-promoted-group{
+  background-color: #282c34;
+  margin: 10px;
+  margin-right: 20px;
+  margin-top: -510px;
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  float: right;
+}
+
+.Promote-text1{
+  font-size: 10px;
+  text-align: left;
+  padding-top: 12px;
+}
+
+.App-page{
+  float: left;
+  margin-left: 200px;
+  margin-top: -500px;
+}
