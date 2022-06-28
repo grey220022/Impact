@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: black;
-  height: 100vh;
+  height: 300vh;
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 5px;
@@ -24,7 +24,7 @@
 .App-header-bar {
   background-color: #282c34;
   margin: 20px;
-  height: 120px;
+  height: 75px;
   border-radius: 20px;  
   padding-top: 20px;
   text-align: center;
@@ -38,6 +38,7 @@
   margin-top: -20px;
   margin-bottom: 20px;
   font-size: 40px;
+  display: inline;
 }
 
 .App-header-icon-unselected {
@@ -59,7 +60,7 @@
 
 .App-search-bar {
   background-color: white;
-  width: 200px;
+  width: 300px;
   display: inline-grid;
   margin-left: 30px;
 }
@@ -71,11 +72,15 @@
   border: solid 1px;
   padding: 10px;
   font-size: 10px;
+  position: relative;
+  top: -5px;  
 }
 
 .Avatar {
   display:inline;
   margin-left: 20px;
+  position: relative;
+  top: -5px;  
 }
 
 .Avatar-photo {
@@ -93,6 +98,8 @@
   border: solid 1px;
   padding: 10px;
   font-size: 10px;
+  position: relative;
+  top: -5px;  
 }
 
 .App-header-icon-group2 {

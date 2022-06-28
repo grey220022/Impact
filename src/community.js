@@ -38,12 +38,14 @@ function Community() {
               <div className="Topic-text1">
                 {"Pavel has a question about crypto donation"}
               </div>
-              <div className="Topic-photo-small-div">
-                <img src={a1} className="Topic-photo-small"/>
+              <div className="Topic-comment-panel">
+                <div className="Topic-photo-small-div">
+                  <img src={a1} className="Topic-photo-small"/>
+                </div>
+                <div className="Topic-text2">
+                  {"  244568 Views;    10323 Inspired;   12 comments"}
+                </div>
               </div>
-              <div className="Topic-text2">
-                {"  244568 Views;    10323 Inspired;   12 comments"}
-              </div>          
             </div>
         </div>      
         <div className="App-topic-cell">
@@ -54,12 +56,14 @@ function Community() {
               <div className="Topic-text1">
                 {"Jane Donated 10000 USDC to World Food Programme"}
               </div>
-              <div className="Topic-photo-small-div">
-                <img src={a2} className="Topic-photo-small"/>
+              <div className="Topic-comment-panel">
+                <div className="Topic-photo-small-div">
+                  <img src={a2} className="Topic-photo-small"/>
+                </div>
+                <div className="Topic-text2">
+                  {"  244 Views;    23 Inspired;   3 comments"}
+                </div>          
               </div>
-              <div className="Topic-text2">
-                {"  244 Views;    23 Inspired;   3 comments"}
-              </div>          
             </div>
         </div>      
 
@@ -71,12 +75,14 @@ function Community() {
               <div className="Topic-text1">
                 {"A Nameless Legend claims a high honor badge!"}
               </div>
-              <div className="Topic-photo-small-div">
-                <img src={a3} className="Topic-photo-small"/>
+              <div className="Topic-comment-panel">
+                <div className="Topic-photo-small-div">
+                  <img src={a3} className="Topic-photo-small"/>
+                </div>
+                <div className="Topic-text2">
+                  {"  568 Views;    323 Inspired;   5 comments"}
+                </div>          
               </div>
-              <div className="Topic-text2">
-                {"  568 Views;    323 Inspired;   5 comments"}
-              </div>          
             </div>
         </div>      
 
@@ -88,12 +94,14 @@ function Community() {
               <div className="Topic-text1">
                 {"Impactopia community had an organization visit with Save the Children"}
               </div>
-              <div className="Topic-photo-small-div">
-                <img src={a4} className="Topic-photo-small"/>
+              <div className="Topic-comment-panel">
+                <div className="Topic-photo-small-div">
+                  <img src={a4} className="Topic-photo-small"/>
+                </div>
+                <div className="Topic-text2">
+                  {"  44568 Views;    1323 Inspired;   3 comments"}
+                </div>          
               </div>
-              <div className="Topic-text2">
-                {"  44568 Views;    1323 Inspired;   3 comments"}
-              </div>          
             </div>
         </div>
 	  
@@ -105,12 +113,14 @@ function Community() {
               <div className="Topic-text1">
                 {"Sign the petition to ban single-use plastic bags in the State of Washington"}
               </div>
-              <div className="Topic-photo-small-div">
-                <img src={a5} className="Topic-photo-small"/>
+              <div className="Topic-comment-panel">
+                <div className="Topic-photo-small-div">
+                  <img src={a5} className="Topic-photo-small"/>
+                </div>
+                <div className="Topic-text2">
+                  {"  2445 Views;    1033 Inspired;   1 comments"}
+                </div>          
               </div>
-              <div className="Topic-text2">
-                {"  2445 Views;    1033 Inspired;   1 comments"}
-              </div>          
             </div>
         </div>
 	  

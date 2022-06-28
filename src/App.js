@@ -129,10 +129,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-header-bar">
+          <div>
           <div className="App-header-text">
             {"Impactopia"}
           </div>
-          <div>
+
           <div className={currentPage === 0 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(0)}>
             <FontAwesomeIcon icon={faHouse} />
           </div>
@@ -148,7 +149,17 @@ function App() {
           <div className="App-search-bar">
           <TextField id="outlined-basic" variant="filled" fullWidth label="Search" />
           </div>
-          <div className="App-sign" onClick={() => setSignin(!signin)}>
+
+          <div className="App-header-icon-group2">
+            <div className="App-header-icon-unselected right">
+            <FontAwesomeIcon icon={faCommentDots} />
+            </div>
+            <div className="App-header-icon-unselected right">
+              <FontAwesomeIcon icon={faBell} />
+            </div>
+            </div>
+
+            <div className="App-sign" onClick={() => setSignin(!signin)}>
             {signin? "Sign out": "Sign in"}
           </div>
           <Tooltip interactive={true} disableFocusListener title={
@@ -163,14 +174,7 @@ function App() {
           <div className="Wallet" onClick={connectWalletClick}>
             {connectwallet? walletaddress.substr(0, 4) + "..." + walletaddress.substr(-8) : "Connect wallet"}
           </div>
-          <div className="App-header-icon-group2">
-            <div className="App-header-icon-unselected right">
-            <FontAwesomeIcon icon={faCommentDots} />
-            </div>
-            <div className="App-header-icon-unselected right">
-              <FontAwesomeIcon icon={faBell} />
-            </div>
-            </div>
+
           </div>
         </div>
         <div className="App-sidebar-cell">

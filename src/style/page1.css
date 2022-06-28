@@ -26,9 +26,10 @@
   background-color: #282c34;
   margin: 10px;
   margin-left: 20px;
-  width: 750px;
-  height: 60px;
+  width: 99%;
+  height: 130px;
   border-radius: 20px;
+  padding-right: 10px;
 }
 
 .Topic-photo-div{
@@ -40,15 +41,15 @@
 }
 
 .Topic-photo{
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: 120px;
   margin-top: 5px;
 }
 
 .Topic-photo-small-div{
   height: 50px;
   text-align: left;
-  margin-left: 10px;  
+  margin-left: 140px;  
   margin-right: 10px;
 }
 
@@ -62,12 +63,13 @@
 
 .Topic-text{
   display: inline;
+  position: relative;
 }
 
 .Topic-text1{
-  font-size: 15px;
+  font-size: 30px;
   text-align: left;
-  padding-top: 7px;  
+  padding-top: 7px;    
 }
 
 .Topic-text2{
@@ -76,5 +78,11 @@
   color: gray;
   margin-top: -43px;
   position: relative;
-  left: 45px;
+  left: 180px;
+}
+
+.Topic-comment-panel{
+  position: absolute;
+  bottom: -110px;
+  height: 20px;
 }

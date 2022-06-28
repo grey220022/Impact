@@ -83,4 +83,7 @@
   float: left;
   margin-left: 200px;
   margin-top: -500px;
+  width: -webkit-calc(77% - 280px);
+  width:    -moz-calc(77% - 280px);
+  width:         calc(77% - 280px);
 }
