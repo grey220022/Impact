@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TextField from '@mui/material/TextField';
 //import Button from '@mui/material/Button';
-import './style/page1.css';
+import './style/community.css';
 import avatar from './icon/avatar.png';
 import s1 from './icon/s1.png';
 import s2 from './icon/s2.png';

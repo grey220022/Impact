@@ -1,0 +1,24 @@
+.Page4-post-bar {
+  background-color: white;
+  margin: 10px;
+  margin-left: 20px;
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.Page4-post-button-div {
+  display: inline;
+}
+
+.Page4-post-button {
+  display: inline;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  background-color: rgb(252, 62, 22);
+  color: white;
+}

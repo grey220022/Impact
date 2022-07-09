@@ -23,6 +23,8 @@ import React, { useState } from 'react';
 import Web3 from "web3"; 
 //import Page from './Page.js';
 import Page1 from './community';
+import Page4 from './donation';
+
 
 function Page(props) {
   const currentPage = props.currentPage;
@@ -43,7 +45,7 @@ function Page(props) {
   }
   if (currentPage===3){
     return (
-      <div>Donation page</div>
+      <Page4/>
     )
   }  
   return null;  
