@@ -1,7 +1,7 @@
 .Page4-post-bar {
   background-color: white;
   margin: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
   width: 500px;
   height: 50px;
   border-radius: 20px;
@@ -21,4 +21,98 @@
   font-size: 18px;
   background-color: rgb(252, 62, 22);
   color: white;
+}
+
+.Page4-topic-area {
+  text-align: center;
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+.Page4-topic-div {
+  display: inline-table;
+  width: 250px;
+  height: 250px;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 5px;
+}
+
+.Page4-topic {
+  display: block;
+  height: 60px;
+  padding: 5px;
+}
+
+.Page4-img {
+  display: inline;
+}
+
+.Page4-description-div{
+  text-align: left;
+  padding: 20px;  
+}
+
+.Page4-description{
+  display: block;
+  height: 80px;
+  font-size: 10px;
+}
+
+.Page4-like{
+  text-align: right;
+  margin-right: 20px;
+  color: red;
+}
+
+.Page4-tag-div{
+  text-align: left;
+  margin-top: -10px;
+  font-size: 12px;  
+}
+
+.Page4-tag{
+  border: solid 1px #282c34;
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 3px;
+  background-color: #282c34;
+}
+
+.Page4-commenttext{
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.Page4-filter .MuiFormControl-root{
+    background-color: white;
+}
+
+.Page4-filter .MuiInputLabel-root{
+  display: none;
+}
+
+.Page4-filter .MuiOutlinedInput-root{
+  text-align: left;
+  height: 30px;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  font-size: 12px;
+}
+
+.Page4-filter-text{
+  font-size: 12px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 110px;
+}
+
+.Page4-filter{
+  text-align: left;
+  margin-left: 20px;
+  display: table;
 }
