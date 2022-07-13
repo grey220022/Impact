@@ -1,0 +1,118 @@
+.Page5-photo {
+  width: 120px;
+  height: 120px;
+  display: inline;
+}
+
+.Page5-description {
+  font-size: 15px;
+    width: 800px;
+    text-align: left;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.Page5-title {
+  font-size: 40px;
+  vertical-align: middle;
+  color: lightblue;
+  display: table-cell;
+}
+
+.Page5-photo-div {
+
+}
+
+.Page5-photo-div1{
+  display: table;
+  padding-left: 100px;
+  border-spacing: 10px;
+}
+
+.apexcharts-tooltip {
+  background: #f3f3f3;
+  color: black;
+}
+
+#chart {
+  display: inline;
+}
+
+.Page5-section{
+
+}
+
+.Page5-chart{
+  margin-left: -200px;
+}
+
+.Page5-tags{
+  float: right;
+  margin-top: -350px;
+}
+
+.Page5-tag{
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  border: solid 1px #282c34;
+  background: #282c34;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.Page5-likes{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.Page5-likes-number{
+  
+}
+
+.Page5-heart{
+  color: red;
+  font-size: 28px;
+}
+
+.apexcharts-menu-icon{
+  display: none;
+}
+
+.Page5-donate{
+  background-color: green;
+  border-radius: 30px;
+  border: solid 2px white;
+  height: 55px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+
+.Page5-endorsement{
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.Page5-endorsement-img-div{
+  display: inline;
+}
+
+.Page5-endorsement-img{
+  width: 50px;
+  display: inline;
+  margin: 8px;
+  border-radius: 20px;
+  border: solid 1px white;
+}
+
+.Page5-firends{
+  font-size: 12px;
+}
+
+.Page5-comments-img{
+  width: 800px;
+  margin-top: 20px
+}

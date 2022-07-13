@@ -8,10 +8,13 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import ApexChart from './ApexChart';
 import { Theme, useTheme } from '@mui/material/styles';
 
 //import Button from '@mui/material/Button';
 import './style/donation.css';
+import './style/project.css';
+
 import avatar from './icon/avatar.png';
 import s1 from './icon/s1.png';
 import s2 from './icon/s2.png';
@@ -25,6 +28,8 @@ import a3 from './icon/a3.png';
 import a4 from './icon/a4.png';
 import a5 from './icon/a5.jpg';
 
+import c1 from './icon/comments.png';
+
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
@@ -36,28 +41,7 @@ const MenuProps = {
   },
 };
 
-const donations=[
-  {
-    topic: "World Food Programme",
-    tags: ["Food", "Humanritarian"],
-    description: "The World Food Programme is the food-assistance branch of the United Nations. It is the world's largest humanitarian organization focused on hunger and food security, and the largest provider of school meals. Founded in 1961, it is headquartered in Rome and has offices in 80 countries.",
-    like: true,
-    likes: 10920,
-    comments: 184,
-    img: require("./icon/s2.png").default,
-  },
-  {
-    topic: "World Central Kitchen",
-    tags: ["Food", "Humanritarian"],
-    description: "World Central Kitchen is a not-for-profit non-governmental organization devoted to providing meals in the wake of natural disasters. Founded in 2010 by celebrity chef José Andrés, the organization prepared food in Haiti following its devastating earthquake.",
-    like: false,
-    likes: 10920,
-    comments: 184,
-    img: require("./icon/s6.png").default,
-  }
-];
-
-function Donation(page) {
+function Project() {
   const [likes, setLikes] = useState([true, false]);
   const causeFilters = [
     'Food',
@@ -74,6 +58,7 @@ function Donation(page) {
   ];
   const [cause, setCause] = useState([true, false]);
   const [location, setLocation] = useState([true, false]);
+  const [like, setLike] = useState(true);
   const theme = useTheme();
   const handleChange = (event) => {
     const {
@@ -114,18 +99,10 @@ function Donation(page) {
     };
   }
 
-  function openProject(id) {
-    page.projectView();
+  function toggleLike() {
+    //setLike(!like);
+    alert(1);
   }
-
-  function toggleLike(id) {
-    const copyLikes=[];
-    for (let i=0; i<likes.length; i++){
-      copyLikes.push(likes[i]);
-    }
-    copyLikes[id] = !copyLikes[id];
-    setLikes(copyLikes);
-  }  
   return (
     <div>
       <div className="Page4-post-bar">
@@ -194,59 +171,72 @@ function Donation(page) {
       </FormControl>
       </div>
 
-
       <div className="Page4-topic-area">
-        {
-          donations.map((don, index)=>{
-            return (
-              <div className="Page4-topic-div" key={index} onClick={() => openProject(index)}>
-                <div className="Page4-topic">
-                  {don.topic}
-                </div>
-                <div className="Page4-img">
-                  <img src={don.img} width="200" height="200"/>
-                </div>
-                <div className="Page4-description-div">
-                  <div className="Page4-description">
-                    {don.description}
-                  </div>
-                </div>
-                <div>
-                  <div className="Page4-like" onClick={(e) => {
-                    e.stopPropagation();
-                    toggleLike(index);
-                    }}>
+        <div className="Page5-photo-div">
+          <div className="Page5-photo-div1">
+            <img alt="panda" src={s2} className="Page5-photo"/>
+            <div className="Page5-title">
+              {"World Food Programme"}
+            </div>
+          </div>
+          <div className="Page5-description">
+            {"The World Food Programme is the food-assistance branch of the United Nations. It is the world's largest humanitarian organization focused on hunger and food security, and the largest provider of school meals. Founded in 1961, it is headquartered in Rome and has offices in 80 countries."}
+          </div>
+        </div>
+        <div className="Page5-section">
+        <div className="Page5-chart">
+          <ApexChart>            
+          </ApexChart>
+        </div>
+        <div className="Page5-tags">
+          <div className="Page5-tag">
+            {"Food"}
+          </div>
+          <div className="Page5-tag">
+            {"Humanritarian"}
+          </div>
+          <div className="Page5-likes">
+            <div className="Page5-heart" onClick={() => {toggleLike()}}>
                     {
-                      likes[index]?
+                      like?
                         <FontAwesomeIcon icon={faHeartActive} />
                         :
                         <FontAwesomeIcon icon={faHeartInactive} />
                     }
-                  </div>
-                  <div className="Page4-tag-div">
-                    <span className="Page4-tag">
-                      Food
-                    </span>
-                    <span className="Page4-tag">
-                      Humanritarian
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <span className="Page4-commenttext">
-                    {don.likes+" Likes"}
-                  </span>
-                  <span className="Page4-commenttext">
-                    {don.comments+" Comments"}
-                  </span>
-                </div>
-              </div>
-            );
-          })
-        }
+            </div>
+            <div className="Page5-likes-number">
+              {"10,920 Likes"}
+            </div>  
+          </div>
+          <div className="Page5-donate">
+              {"Donate"}
+          </div>          
+          <div className="Page5-endorsement">
+            {"Endorsed by: "}
+          </div>
+          <div className="Page5-endorsement-img-div">
+            <img alt="panda" src={a1} className="Page5-endorsement-img"/>
+          </div>
+          <div className="Page5-endorsement-img-div">
+            <img alt="panda" src={a2} className="Page5-endorsement-img"/>
+          </div>
+          <div className="Page5-firends">
+            {"15 of your friends donated to this organization in the past: "}
+          </div>
+          <div className="Page5-endorsement-img-div">
+            <img alt="panda" src={a3} className="Page5-endorsement-img"/>
+          </div>
+          <div className="Page5-endorsement-img-div">
+            <img alt="panda" src={a4} className="Page5-endorsement-img"/>
+          </div>
+        </div>
+        </div>
+        <div>
+          <img alt="panda" src={c1} className="Page5-comments-img"/>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Donation;
+export default Project;

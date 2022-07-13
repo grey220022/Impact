@@ -24,7 +24,7 @@ import Web3 from "web3";
 //import Page from './Page.js';
 import Page1 from './community';
 import Page4 from './donation';
-
+import Page5 from './project';
 
 function Page(props) {
   const currentPage = props.currentPage;
@@ -45,9 +45,14 @@ function Page(props) {
   }
   if (currentPage===3){
     return (
-      <Page4/>
+      <Page4 projectView={props.projectView}/>
     )
-  }  
+  }
+  if (currentPage===4){
+    return (
+      <Page5/>
+    )
+  }
   return null;  
 }
 
@@ -126,6 +131,9 @@ function App() {
     }
   };
   
+  const projectView = () => {
+    setCurrentPage(4);
+  }
 
   return (
     <div className="App">
@@ -145,7 +153,7 @@ function App() {
           <div className={currentPage === 2 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(2)}>
             <FontAwesomeIcon icon={faPeopleArrows} />
           </div>
-          <div className={currentPage === 3 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(3)}>
+          <div className={currentPage === 3 || currentPage === 4 ? "App-header-icon-selected" : "App-header-icon-unselected"} onClick={() => setCurrentPage(3)}>
             <FontAwesomeIcon icon={faDonate} />
           </div>
           <div className="App-search-bar">
@@ -330,7 +338,7 @@ function App() {
         </div>
 
         <div className="App-page">
-          <Page currentPage={currentPage}/>
+          <Page currentPage={currentPage} projectView={projectView}/>
         </div>
       </header>
     </div>
