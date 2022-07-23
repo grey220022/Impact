@@ -25,12 +25,13 @@ import Web3 from "web3";
 import Page1 from './community';
 import Page4 from './donation';
 import Page5 from './project';
+import Page6 from './profile';
 
 function Page(props) {
   const currentPage = props.currentPage;
   if (currentPage===0){
     return (
-      <Page1/>
+      <Page1 profileView={props.profileView}/>
     )
   }
   if (currentPage===1){
@@ -51,6 +52,11 @@ function Page(props) {
   if (currentPage===4){
     return (
       <Page5/>
+    )
+  }
+  if (currentPage===5){
+    return (
+      <Page6/>
     )
   }
   return null;  
@@ -135,6 +141,10 @@ function App() {
     setCurrentPage(4);
   }
 
+  const profileView = () => {
+    setCurrentPage(5);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -174,7 +184,9 @@ function App() {
           </div>
           <Tooltip interactive={true} disableFocusListener title={
           <>
-          <a href="https://Profile.com" target="_BLANK">See profile</a>
+            <a target="_BLANK" onClick={() => setCurrentPage(5)}>
+              See profile
+            </a>
           </>
           }>
           <div className="Avatar">
@@ -338,7 +350,7 @@ function App() {
         </div>
 
         <div className="App-page">
-          <Page currentPage={currentPage} projectView={projectView}/>
+          <Page currentPage={currentPage} projectView={projectView} profileView={profileView}/>
         </div>
       </header>
     </div>

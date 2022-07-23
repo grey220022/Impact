@@ -1,0 +1,88 @@
+.Page6-sector1 {
+
+}
+
+.Page6-sector2 {
+  margin-left: 200px;
+  font-size: 25px;
+}
+
+.Page6-avatar{
+  float: left;
+  margin-left: 100px;
+}
+
+.Page6-text{
+  text-align: left;
+}
+
+.Page6-avatar-photo{
+  width: 80px;
+}
+
+.Page6-description{
+  margin-top: 60px;
+  font-size: 30px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+#chart {
+  display: inline-block;
+}
+
+.apexcharts-legend-text{
+  color: white !important;
+}
+
+.apexcharts-legend-series{
+  text-align: left;
+}
+
+.Page6-select{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #282c34;
+}
+
+.MuiTab-root {
+  color: white !important;
+}
+
+.MuiTabs-root{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.Page6-badge-div{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.Page6-badge{
+
+}
+
+.Page6-badge-text{
+  font-size: 15px;
+  margin-bottom: 30px
+}

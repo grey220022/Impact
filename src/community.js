@@ -15,10 +15,10 @@ import a3 from './icon/a3.png';
 import a4 from './icon/a4.png';
 import a5 from './icon/a5.jpg';
 
-function Community() {
+function Community(page) {
   return (
     <div>
-      <div className="Avatar">
+      <div className="Avatar" onClick={() => page.profileView()}>
         <img alt="panda" src={avatar} className="Avatar-photo" style={{marginTop:"10px"}}/>
       </div>
       <div className="Page1-post-bar">
