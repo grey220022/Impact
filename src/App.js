@@ -26,6 +26,7 @@ import Page1 from './community';
 import Page4 from './donation';
 import Page5 from './project';
 import Page6 from './profile';
+import Relationship from './page/relationship';
 
 function Page(props) {
   const currentPage = props.currentPage;
@@ -41,7 +42,8 @@ function Page(props) {
   }
   if (currentPage===2){
     return (
-      <div>New page</div>
+      // <div>News page</div>
+      <Relationship />
     )
   }
   if (currentPage===3){
