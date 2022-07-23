@@ -134,18 +134,11 @@ function Profile(page) {
   <Tab value="three" label="All" />
 </Tabs>      
       </div>
-      <div className="Page6-badge-div">
-            <img alt="panda" src={g3} className="Page6-badge"/>
-            <div className="Page6-badge-text">
-              {"High honor badge"}
-            </div>
-          </div>
-          <div className="Page6-badge-div">
-            <img alt="panda" src={g4} className="Page6-badge"/>
-            <div className="Page6-badge-text">
-              {"Badge by cause sustainability"}
-            </div>
-          </div>          
+      <iframe src='https://testnets.opensea.io/assets/rinkeby/0x88b48f654c30e99bc2e4a1559b4dcf1ad93fa656/61279250528949615918274109043419901250016196416068273509280419963065962856449?embed=true'
+        width='100%'
+        height='800'
+        frameborder='0'
+        allowfullscreen></iframe>        
     </div>
   );
 }
