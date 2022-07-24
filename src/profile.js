@@ -6,7 +6,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import g3 from './icon/g3.png';
 import g4 from './icon/g4.png';
-
+import animation from './assets/animation.mp4';
 
 
 const state = {          
@@ -134,11 +134,9 @@ function Profile(page) {
   <Tab value="three" label="All" />
 </Tabs>      
       </div>
-      <iframe src='https://testnets.opensea.io/assets/rinkeby/0x88b48f654c30e99bc2e4a1559b4dcf1ad93fa656/61279250528949615918274109043419901250016196416068273509280419963065962856449?embed=true'
-        width='100%'
-        height='800'
-        frameborder='0'
-        allowfullscreen></iframe>        
+      <video width="750" height="500" controls loop autoPlay muted>
+        <source src={animation} type="video/mp4"/>
+     </video>
     </div>
   );
 }

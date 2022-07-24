@@ -2,11 +2,7 @@
     "nodes": [
       {
         "id": "0",
-<<<<<<< HEAD
         "name": "You",
-=======
-        "name": "HEC Foundation",
->>>>>>> 49380cafc4c0871dcfc686f0d1a279587087b8f5
         "symbolSize": 19.12381,
         "x": -266.82776,
         "y": 299.6904,
