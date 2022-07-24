@@ -13,7 +13,7 @@ export default function Relationship() {
   
   const option = {
     title: {
-      text: 'Les Miserables',
+      text: 'Impactopia Network',
       subtext: 'Default layout',
       top: 'bottom',
       left: 'right'
@@ -31,7 +31,7 @@ export default function Relationship() {
     animationEasingUpdate: 'quinticInOut',
     series: [
       {
-        name: 'Les Miserables',
+        name: 'Impactopia Network',
         type: 'graph',
         layout: 'none',
         data: graph.nodes,
