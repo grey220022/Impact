@@ -227,7 +227,7 @@
       },
       {
         "id": "25",
-        "name": "Thenardier",
+        "name": "UNESCO",
         "symbolSize": 30.095235333333335,
         "x": 82.80825,
         "y": -203.1144,
@@ -236,7 +236,7 @@
       },
       {
         "id": "26",
-        "name": "Cosette",
+        "name": "Doctors of the World",
         "symbolSize": 20.95238266666667,
         "x": 78.64646,
         "y": -31.512747,
@@ -245,7 +245,7 @@
       },
       {
         "id": "27",
-        "name": "Javert",
+        "name": "Greenpeace",
         "symbolSize": 31.923806666666668,
         "x": -81.46074,
         "y": -204.20204,
@@ -434,7 +434,7 @@
       },
       {
         "id": "48",
-        "name": "Gavroche",
+        "name": "The Education Trust",
         "symbolSize": 41.06667066666667,
         "x": 387.89572,
         "y": 110.462326,
@@ -497,7 +497,7 @@
       },
       {
         "id": "55",
-        "name": "Marius",
+        "name": "AmeriCares",
         "symbolSize": 35.58095333333333,
         "x": 206.44687,
         "y": -13.805411,
