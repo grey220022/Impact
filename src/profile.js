@@ -15,7 +15,7 @@ const state = {
     chart: {
       type: 'donut',
     },
-    labels: ['Industry', 'Food', 'Education'],
+    labels: ['Humanitarin-aid', 'Food', 'Education'],
     responsive: [{
       breakpoint: 480,
       options: {
@@ -86,13 +86,13 @@ function Profile(page) {
           </tr>
           <tr>
             <td>Industry</td>
-            <td>Tesla</td>            
+            <td>HEC</td>            
             <td>11/11/2020</td>
             <td>5000</td>
           </tr>
           <tr>
             <td>Education</td>
-            <td>Tesla</td>            
+            <td>Save the children</td>            
             <td>06/06/2020</td>
             <td>3000</td>
           </tr>
