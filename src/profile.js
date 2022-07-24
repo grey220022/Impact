@@ -13,7 +13,7 @@ const state = {
   series: [44, 55, 41],
   options: {
     chart: {
-      type: 'donut',
+      type: 'donut',   
     },
 <<<<<<< HEAD
     labels: ['Heath', 'Food', 'Education'],
