@@ -15,7 +15,11 @@ const state = {
     chart: {
       type: 'donut',
     },
+<<<<<<< HEAD
     labels: ['Heath', 'Food', 'Education'],
+=======
+    labels: ['humanitarian-aid', 'Food', 'Education'],
+>>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
     responsive: [{
       breakpoint: 480,
       options: {
@@ -85,32 +89,41 @@ function Profile(page) {
             <th>Amount</th>
           </tr>
           <tr>
+<<<<<<< HEAD
             <td>HEALTH</td>
             <td>WHO</td>            
+=======
+            <td>Humanirin-aid</td>
+            <td>Save the children</td>            
+>>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
             <td>11/11/2020</td>
             <td>5000</td>
           </tr>
           <tr>
             <td>Education</td>
+<<<<<<< HEAD
             <td>The Education Trust</td>            
+=======
+            <td> UNESCO</td>            
+>>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
             <td>06/06/2020</td>
             <td>3000</td>
           </tr>
           <tr>
             <td>Education</td>
-            <td>School</td>            
+            <td>UNESCO</td>            
             <td>11/01/2020</td>
             <td>8000</td>
           </tr>
           <tr>
             <td>Education</td>
-            <td>University</td>            
+            <td>HEC Foundation</td>            
             <td>09/11/2021</td>
             <td>4000</td>
           </tr>
           <tr>
             <td>Food</td>
-            <td>Farmer</td>            
+            <td>World Food Program</td>            
             <td>11/10/2021</td>
             <td>500</td>
           </tr>
