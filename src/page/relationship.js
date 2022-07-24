@@ -108,7 +108,7 @@ export default function Relationship() {
               width: '48px',
               height: '48px',
               borderRadius: '50%',
-            }} src="http://localhost:3000/static/media/avatar.f68677f1.png" />
+            }} src="/static/media/avatar.f68677f1.png" />
           </div>
           <div style={{
             fontSize: '14px',
