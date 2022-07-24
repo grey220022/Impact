@@ -134,6 +134,7 @@ function Profile(page) {
   <Tab value="three" label="All" />
 </Tabs>      
       </div>
+      <a href="https://testnets.opensea.io/assets/rinkeby/0x88b48f654c30e99bc2e4a1559b4dcf1ad93fa656/61279250528949615918274109043419901250016196416068273509280419963065962856449" style={{"color":"white", "fontSize":"15px"}}>View in Opensea</a>
       <video width="750" height="500" controls loop autoPlay muted>
         <source src={animation} type="video/mp4"/>
      </video>
