@@ -16,7 +16,7 @@ const state = {
       type: 'donut',   
     },
 <<<<<<< HEAD
-    labels: ['Heath', 'Food', 'Education'],
+    labels: ['humanitarian-aid', 'Food', 'Education'],
 =======
     labels: ['humanitarian-aid', 'Food', 'Education'],
 >>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
