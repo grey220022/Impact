@@ -2,7 +2,11 @@
     "nodes": [
       {
         "id": "0",
+<<<<<<< HEAD
         "name": "You",
+=======
+        "name": "HEC Foundation",
+>>>>>>> 49380cafc4c0871dcfc686f0d1a279587087b8f5
         "symbolSize": 19.12381,
         "x": -266.82776,
         "y": 299.6904,
@@ -11,7 +15,7 @@
       },
       {
         "id": "1",
-        "name": "Napoleon",
+        "name": "Greenpeace",
         "symbolSize": 2.6666666666666665,
         "x": -418.08344,
         "y": 446.8853,
@@ -20,7 +24,7 @@
       },
       {
         "id": "2",
-        "name": "MlleBaptistine",
+        "name": "UNICEF",
         "symbolSize": 6.323809333333333,
         "x": -212.76357,
         "y": 245.29176,
@@ -29,7 +33,7 @@
       },
       {
         "id": "3",
-        "name": "MmeMagloire",
+        "name": "AmeriCares",
         "symbolSize": 6.323809333333333,
         "x": -242.82404,
         "y": 235.26283,
@@ -38,7 +42,7 @@
       },
       {
         "id": "4",
-        "name": "CountessDeLo",
+        "name": "Save the Children",
         "symbolSize": 2.6666666666666665,
         "x": -379.30386,
         "y": 429.06424,
@@ -47,7 +51,7 @@
       },
       {
         "id": "5",
-        "name": "Geborand",
+        "name": "Catholic Relief Services",
         "symbolSize": 2.6666666666666665,
         "x": -417.26337,
         "y": 406.03506,
@@ -56,7 +60,7 @@
       },
       {
         "id": "6",
-        "name": "Champtercier",
+        "name": "World Wildlife Fund",
         "symbolSize": 2.6666666666666665,
         "x": -332.6012,
         "y": 485.16974,
@@ -65,7 +69,7 @@
       },
       {
         "id": "7",
-        "name": "Cravatte",
+        "name": "Doctors Without Borders",
         "symbolSize": 2.6666666666666665,
         "x": -382.69568,
         "y": 475.09113,
@@ -74,7 +78,7 @@
       },
       {
         "id": "8",
-        "name": "Count",
+        "name": "UNESCO",
         "symbolSize": 2.6666666666666665,
         "x": -320.384,
         "y": 387.17325,
@@ -83,7 +87,7 @@
       },
       {
         "id": "9",
-        "name": "OldMan",
+        "name": "Medecin du monde",
         "symbolSize": 2.6666666666666665,
         "x": -344.39832,
         "y": 451.16772,
@@ -92,7 +96,7 @@
       },
       {
         "id": "10",
-        "name": "Labarre",
+        "name": "Center for Amazon Community Ecology",
         "symbolSize": 2.6666666666666665,
         "x": -89.34107,
         "y": 234.56128,
@@ -101,7 +105,7 @@
       },
       {
         "id": "11",
-        "name": "Valjean",
+        "name": "World Food Programme (WFP)",
         "symbolSize": 66.66666666666667,
         "x": -87.93029,
         "y": -6.8120565,
@@ -110,7 +114,7 @@
       },
       {
         "id": "12",
-        "name": "Marguerite",
+        "name": "Plan International",
         "symbolSize": 4.495239333333333,
         "x": -339.77908,
         "y": -184.69139,
@@ -119,7 +123,7 @@
       },
       {
         "id": "13",
-        "name": "MmeDeR",
+        "name": "Action Against Hunger",
         "symbolSize": 2.6666666666666665,
         "x": -194.31313,
         "y": 178.55301,
@@ -128,7 +132,7 @@
       },
       {
         "id": "14",
-        "name": "Isabeau",
+        "name": "Bromley Youth Music Trust (BYMT)",
         "symbolSize": 2.6666666666666665,
         "x": -158.05168,
         "y": 201.99768,
@@ -227,7 +231,7 @@
       },
       {
         "id": "25",
-        "name": "Thenardier",
+        "name": "UNESCO",
         "symbolSize": 30.095235333333335,
         "x": 82.80825,
         "y": -203.1144,
@@ -236,7 +240,7 @@
       },
       {
         "id": "26",
-        "name": "Cosette",
+        "name": "Doctors of the World",
         "symbolSize": 20.95238266666667,
         "x": 78.64646,
         "y": -31.512747,
@@ -245,7 +249,7 @@
       },
       {
         "id": "27",
-        "name": "Javert",
+        "name": "Greenpeace",
         "symbolSize": 31.923806666666668,
         "x": -81.46074,
         "y": -204.20204,
@@ -434,7 +438,7 @@
       },
       {
         "id": "48",
-        "name": "Gavroche",
+        "name": "The Education Trust",
         "symbolSize": 41.06667066666667,
         "x": 387.89572,
         "y": 110.462326,
@@ -497,7 +501,7 @@
       },
       {
         "id": "55",
-        "name": "Marius",
+        "name": "AmeriCares",
         "symbolSize": 35.58095333333333,
         "x": 206.44687,
         "y": -13.805411,
