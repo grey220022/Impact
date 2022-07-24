@@ -93,7 +93,7 @@ function Profile(page) {
             <td>HEALTH</td>
             <td>WHO</td>            
 =======
-            <td>Humanirin-aid</td>
+            <td>humanitarian-aid</td>
             <td>Save the children</td>            
 >>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
             <td>11/11/2020</td>
