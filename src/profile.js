@@ -85,14 +85,14 @@ function Profile(page) {
             <th>Amount</th>
           </tr>
           <tr>
-            <td>Industry</td>
-            <td>HEC</td>            
+            <td>Humanirin-aid</td>
+            <td>Save the children</td>            
             <td>11/11/2020</td>
             <td>5000</td>
           </tr>
           <tr>
             <td>Education</td>
-            <td>Save the children</td>            
+            <td> UNESCO</td>            
             <td>06/06/2020</td>
             <td>3000</td>
           </tr>
