@@ -98,19 +98,19 @@ function Profile(page) {
           </tr>
           <tr>
             <td>Education</td>
-            <td>School</td>            
+            <td>UNESCO</td>            
             <td>11/01/2020</td>
             <td>8000</td>
           </tr>
           <tr>
             <td>Education</td>
-            <td>University</td>            
+            <td>HEC Foundation</td>            
             <td>09/11/2021</td>
             <td>4000</td>
           </tr>
           <tr>
             <td>Food</td>
-            <td>Farmer</td>            
+            <td>World Food Program</td>            
             <td>11/10/2021</td>
             <td>500</td>
           </tr>
