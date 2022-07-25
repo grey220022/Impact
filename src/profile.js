@@ -80,9 +80,7 @@ function Profile(page) {
             <th>Date</th>
             <th>Amount</th>
           </tr>
-          <tr>
-            <td>Industry</td>
-            <td>HEC</td>            
+          <tr>         
             <td>Humanirain-aid</td>
             <td>Save the children</td>            
             <td>11/11/2020</td>
@@ -90,8 +88,7 @@ function Profile(page) {
           </tr>
           <tr>
             <td>Education</td>
-            <td>Save the children</td>            
-            <td> UNESCO</td>            
+            <td>Save the children</td>             
             <td>06/06/2020</td>
             <td>3000</td>
           </tr>
