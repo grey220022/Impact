@@ -7,19 +7,13 @@ import Tab from '@mui/material/Tab';
 import g3 from './icon/g3.png';
 import g4 from './icon/g4.png';
 import animation from './assets/animation.mp4';
-
-
 const state = {          
   series: [44, 55, 41],
   options: {
     chart: {
-      type: 'donut',   
+      type: 'donut',
     },
-<<<<<<< HEAD
-    labels: ['humanitarian-aid', 'Food', 'Education'],
-=======
-    labels: ['humanitarian-aid', 'Food', 'Education'],
->>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
+    labels: ['Humanitarain-aid', 'Food', 'Education'],
     responsive: [{
       breakpoint: 480,
       options: {
@@ -33,10 +27,8 @@ const state = {
     }]
   },
 };
-
 function Profile(page) {
   const [value, setValue] = React.useState('one');
-
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -89,23 +81,17 @@ function Profile(page) {
             <th>Amount</th>
           </tr>
           <tr>
-<<<<<<< HEAD
-            <td>HEALTH</td>
-            <td>WHO</td>            
-=======
-            <td>humanitarian-aid</td>
+            <td>Industry</td>
+            <td>HEC</td>            
+            <td>Humanirain-aid</td>
             <td>Save the children</td>            
->>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
             <td>11/11/2020</td>
             <td>5000</td>
           </tr>
           <tr>
             <td>Education</td>
-<<<<<<< HEAD
-            <td>The Education Trust</td>            
-=======
+            <td>Save the children</td>            
             <td> UNESCO</td>            
->>>>>>> e99fb933695b69a93b0543a8213c733f8b9fce58
             <td>06/06/2020</td>
             <td>3000</td>
           </tr>
@@ -133,7 +119,6 @@ function Profile(page) {
       <div className="Page6-description">
           {"Badges"}
         </div>
-
       <div>
       <Tabs
   value={value}
@@ -154,5 +139,4 @@ function Profile(page) {
     </div>
   );
 }
-
 export default Profile;
