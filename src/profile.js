@@ -53,7 +53,7 @@ function Profile(page) {
     </div>
       <div>
         <div className="Page6-description">
-          {"Acculative Donation"}
+          {"Accumlative Donation"}
         </div>
         <div className="Page6-select">
         <form>
@@ -81,7 +81,7 @@ function Profile(page) {
             <th>Amount</th>
           </tr>
           <tr>         
-            <td>Humanirain-aid</td>
+            <td>Humanitarian-aid</td>
             <td>Save the children</td>            
             <td>11/11/2020</td>
             <td>5000</td>
